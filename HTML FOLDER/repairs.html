@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Load icon library -->
+    <script src="https://kit.fontawesome.com/f1355d21f8.js" crossorigin="anonymous"></script>
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    
+    <title>Repairs Page</title>
+    <link href="indexstyle.css" rel="stylesheet" type="text/css">
+
+    <!-- Load icon library -->
+    
+
+</head>
+<body>
+    <!--Navigation Bar section-->
+    <nav class="topnav-container">
+        <label class="logo">CTS WIZARD</label>
+        
+        <ul class="nav-links">
+            <li><a href="/index.html" class>Home</a></li>
+            <li><a href="#" class>About</a></li>
+            <li><a href="#" class>Contact</a></li>
+            <li><a href="#" class>Logout</a></li>
+        </ul>
+
+    </nav>
+
+    
+
+    <div class="mainbody-container">    <!--Main body Content section-->
+
+        <div class="sidenav-container">
+            <button class="button-link" id="distribute-button"><a href="/distribute.html">Distribute</a></button> 
+            <button class="button-link" id="returns-button"><a href="/returns.html">Returns</a></button> 
+            <button class="button-link" id="repairs-button"><a href="/repairs.html">Repairs</a></button>         
+        </div>
+        <!--end of side nav Begining of  -->
+
+    <main id="swup" class="transition-fade">
+
+      <div class="content-container">
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        <div class="repairs-container">         <!--Repairs Containers starts here-->
+          <h1 class="form-heading">Repairs Page</h1> 
+
+          <form action="#">
+
+            <div class="row">
+              <div class="col-25">
+                  <label for="search-student" class="cont-labels">Search Student : </label>
+              </div>
+
+              <div class="col-75">
+                  <input type="search" id="search-student" name="search-student">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="fname" class="cont-labels">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Student's first name..">
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-25">
+                <label for="lstname" class="cont-labels">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lstname" name="lastname" placeholder="Student's last name..">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="studentnum" class="cont-labels">Student Number</label>
+              </div>
+              <div class="col-75">
+                <input type="number" id="studentnum" name="studentnumber" placeholder="Student number..">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="laptopserial" class="cont-labels">Serial Number</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="laptopserial" name="laptopser" placeholder="Laptop serial number...">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="datecollect" class="cont-labels">Date Collected</label>
+              </div>
+              <div class="col-75">
+                <input type="date" id="datecollect" name="datecoll" max="2020-06-31">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="laptopmodel" class="cont-labels">Cause of Damage</label>
+              </div>
+              <div class="col-75">
+                <select id="laptopmodel" name="laptopmodel">
+                  <option value="education">Software</option>
+                  <option value="business">Hardware</option>
+                  <option value="applied">Malicious</option>
+                  <option value="applied">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Additinal notes</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Additional notes.." ></textarea>
+              </div>
+            </div>
+
+            <div class="row" >
+              <input class="saveBtn" id="formButtons" type="submit" value="Save">
+              <input class="cancelBtn" id="formButtons" type="reset" value="cancel">
+            </div> 
+            
+
+
+
+
+
+          </form>
+   
+
+        </div>                                  <!--Repairs Containers ends here-->
+
+      </div> 
+    </main><!--main container--> 
+
+    </div>
+
+    <!--Footer section-->
+    <footer class="footer-section">
+              <label for="" class="footer-text">Cput Project</label>
+    </footer>
+
+    <script defer src="script.js"></script>
+    <script src="logindoc.js"></script> <!--Script tag always placed just before the closing body tag-->
+</body>
+</html>
