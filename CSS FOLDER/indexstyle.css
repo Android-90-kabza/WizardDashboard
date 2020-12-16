@@ -191,22 +191,11 @@ main{
 
 }
 
-/*          THE CODE BELOW IS RESPONSIBLE FOR PAGE TRANSITIONS ONLY         */
+.index-image{
 
-.transition-fade{
-    opacity: 1;
-    transition: 800ms;
-    transform: translateX(0);
-    transform-origin: left;
+    background-image: url("/images/MotherBoard.jpg");
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-position: center;
 
-}
-
-html.is-animating .transition-fade{
-    opacity: 1;
-    transform: translateX(100%);
-     
-}
-
-html.is-leaving .transition-fade{
-    opacity: 0;
 }

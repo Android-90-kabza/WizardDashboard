@@ -10,7 +10,7 @@
 
 body {
     
-     background-image: url('MotherBoard.jpg');
+     background-image: url('/images/MotherBoard.jpg');
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-size: cover;
