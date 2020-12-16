@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Load icon library -->
+    <script src="https://kit.fontawesome.com/f1355d21f8.js" crossorigin="anonymous"></script>  
+    <title>Distribution Page</title>
+    <link href="indexstyle.css" rel="stylesheet" type="text/css">
+
+    <!-- Load icon library -->
+    
+
+</head>
+<body>
+    <!--Navigation Bar section-->
+    <nav class="topnav-container">
+        <label class="logo">CTS WIZARD</label>
+        
+        <ul class="nav-links">
+            <li><a href="/index.html" class>Home</a></li>
+            <li><a href="#" class>About</a></li>
+            <li><a href="#" class>Contact</a></li>
+            <li><a href="#" class>Logout</a></li>
+        </ul>
+
+    </nav>
+
+    
+
+    <div class="mainbody-container">    <!--Main body Content section-->
+
+        <div class="sidenav-container">
+            <button class="button-link" id="distribute-button"><a href="/distribute.html">Distribute</a></button> 
+            <button class="button-link" id="returns-button"><a href="/returns.html">Returns</a></button> 
+            <button class="button-link" id="repairs-button"><a href="/repairs.html">Repairs</a></button>        
+        </div>
+        <!--end of side nav Begining of  -->
+
+    <main id="swup" class="transition-fade">
+
+      <div class="content-container">
+
+        <div class="distribute-container">      <!--Distribution Containers starts here-->
+          <h1 class="form-heading">Distribution</h1>
+
+          <form action="#">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname" class="cont-labels">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Student's first name..">
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-25">
+                <label for="lstname" class="cont-labels">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lstname" name="lastname" placeholder="Student's last name..">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="studentnum" class="cont-labels">Student Number</label>
+              </div>
+              <div class="col-75">
+                <input type="number" id="studentnum" name="studentnumber" placeholder="Student number..">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="studentID" class="cont-labels">Identification Number</label>
+              </div>
+              <div class="col-75">
+                <input type="number" id="studentID" name="studentIDnum" placeholder="Identification number..">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="campus" class="cont-labels">Campus</label>
+              </div>
+              <div class="col-75">
+                <select id="campus" name="campus">
+                  <option value="athlone">Athlone Campus</option>
+                  <option value="bellville">Bellville Campus</option>
+                  <option value="district">District Six Campus</option>
+                  <option value="granger">Granger Bay Campus</option>
+                  <option value="mowbray">Mowbray Campus</option>
+                  <option value="wellington">Wellington Campus</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="faculty" class="cont-labels">Faculty</label>
+              </div>
+              <div class="col-75">
+                <select id="faculty" name="faculty">
+                  <option value="applied">Applied Sciences</option>
+                  <option value="business">Business and Management Sciences</option>
+                  <option value="education">Education</option>
+                  <option value="engineering">Engineering & the Built Environment</option>
+                  <option value="health">Health and Wellness Sciences</option>
+                  <option value="informatics">Informatics and Design</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="laptopmodel" class="cont-labels">Laptop Model</label>
+              </div>
+              <div class="col-75">
+                <select id="laptopmodel" name="laptopmodel">
+                  <option value="education">Acer</option>
+                  <option value="business">HP</option>
+                  <option value="applied">Lenovo</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="laptopserial" class="cont-labels">Serial Number</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="laptopserial" name="laptopser" placeholder="Laptop serial number...">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="datecollect" class="cont-labels">Collection Date</label>
+              </div>
+              <div class="col-75">
+                <input type="date" id="datecollect" name="datecoll" max="2020-06-31">
+              </div>
+            </div>
+
+            <div class="row" >
+              <input class="saveBtn" id="formButtons" type="submit" value="Save">
+              <input class="cancelBtn" id="formButtons" type="reset" value="cancel">
+            </div> 
+            
+ 
+
+
+
+          </form>
+
+
+            
+   
+
+        </div>                                  <!--Distribution Containers ends here-->
+
+
+
+
+
+
+
+
+
+
+        
+
+      </div> 
+    </main><!--main container--> 
+
+    </div>
+
+    <!--Footer section-->
+    <footer class="footer-section">
+              <label for="" class="footer-text">Cput Project</label>
+    </footer>
+
+   
+    <script src="logindoc.js"></script> <!--Script tag always placed just before the closing body tag-->
+</body>
+</html>
